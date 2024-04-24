@@ -4,8 +4,13 @@ torch
 accelerate
 bitsandbytes
 ctransformers
-sentence_transformers
-faiss_cpu
+sentence-transformers
+faiss-cpu
 chainlit
-huggingface_hub
-langchain_community
+huggingface-hub
+langchain-community
+flask
+pandas
+matplotlib
+seaborn
+pandas-profiling

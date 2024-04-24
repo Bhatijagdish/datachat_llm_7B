@@ -7,7 +7,10 @@ import chainlit as cl
 
 DB_FAISS_PATH = 'vectorstore/db_faiss'
 
-custom_prompt_template = """Use the following pieces of information to answer the user's question.
+custom_prompt_template = """Use the following pieces of information to answer the user's question. 
+The informatiom belong to the CSV data represented in a text format so relationship of each row 
+and data stats will be clear enough to find the correct answer.
+The data stats are: {} 
 If you don't know the answer, just say that you don't know, don't try to make up an answer.
 
 Context: {context}

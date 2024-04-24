@@ -1,2 +1,4 @@
 vectorstore/
-cpu_llm/
+models/
+venv/
+data/
